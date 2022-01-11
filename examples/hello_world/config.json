@@ -1,0 +1,9 @@
+{
+    "Config": {
+        "BinaryName": "bin.o",
+        "Generate": "Ascii"
+    },
+    "Source": [
+        "simple_return.lox"
+    ]
+}

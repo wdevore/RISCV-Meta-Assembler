@@ -1,0 +1,23 @@
+var i = 0;
+while (i < 3) {
+    print i;
+    i = i + 1;
+    var b = 10;
+    while (b < 20) {
+        print "inc b";
+        b = b + 1;
+        if (b == 14) {
+            print "continuing";
+            continue;
+            print "after continue";  // never printed
+        }
+        print "checking 18 ---";
+        if (b == 18) {
+            print "breaking";
+            break;
+        }
+        print "printing b";
+        print b;
+    }
+}
+print "done";

@@ -1,0 +1,5 @@
+var a = 11;
+fun printThing(thing) {
+    print thing;
+}
+printThing(a);
